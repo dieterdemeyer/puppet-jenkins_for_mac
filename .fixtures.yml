@@ -1,0 +1,3 @@
+fixtures:
+  symlinks:
+    "jenkins_for_mac": "#{source_dir}"
