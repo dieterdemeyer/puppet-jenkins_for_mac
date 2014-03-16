@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'jenkins_for_mac' do
 
-  version='1.552'
+  version='1.554'
 
   it { should contain_class('jenkins_for_mac') }
   it { should contain_package("jenkins-#{version}.pkg").with_provider('pkgdmg') }

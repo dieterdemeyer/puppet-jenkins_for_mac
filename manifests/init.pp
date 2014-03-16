@@ -4,10 +4,10 @@
 #
 #   include jenkins_for_mac
 #   class { 'jenkins_for_mac':
-#     version => '1.552'
+#     version => '1.554'
 #   }
 #
-class jenkins_for_mac($version='1.552') {
+class jenkins_for_mac($version='1.554') {
 
   package { "jenkins-${version}.pkg":
     provider => 'pkgdmg',
